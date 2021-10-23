@@ -1,0 +1,15 @@
+@import "./Variables/Variables.scss";
+
+.navbar {
+  @include displayStyle(flex-end,none);
+  width: 100%;
+  height: 65px;
+  background-color: black;
+
+  a {
+    text-decoration: none;
+    margin: 3%;
+    color: $ColorBlanco;
+    font-family: $font;
+  }
+}

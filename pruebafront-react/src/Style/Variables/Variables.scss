@@ -1,0 +1,35 @@
+$ColorBlanco: #f5f5f5;
+$blueColor: rgb(119, 155, 223);
+$font: Arial, Helvetica, sans-serif;
+
+// Todas las paginas manejan al inicio el mismo displey por ende tiene una funcion similar
+@mixin displayStyle($justify,$d) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+  flex-direction: $d;
+}
+// Este estilo es para todos los containers de h1
+@mixin h1Style($w,$m,$f) {
+  width: $w;
+  text-decoration: none;
+  margin: $m;
+  color: black;
+  font-family: $font;
+  font-size: $f;
+  text-align: center;
+}
+
+@mixin buttonStyle() {
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  background-color: $blueColor;
+  border: none;
+  border-radius: 8px;
+  color: $ColorBlanco;
+  font-size: 25px;
+  margin: 20px;
+}
+
+

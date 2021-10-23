@@ -1,0 +1,29 @@
+@import "./Variables/Variables.scss";
+
+.bodyCA {
+  h1 {
+    @include h1Style(100wh, 3%, 2em);
+  }
+  button {
+    @include buttonStyle();
+  }
+  a {
+    text-decoration: none;
+    margin: 3%;
+    color: $ColorBlanco;
+    font-family: $font;
+  }
+}
+.nav {
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin-left: 25px;
+}
+
+.sec {
+  width: 70%;
+  height: 80%;
+  float: left;
+  
+}

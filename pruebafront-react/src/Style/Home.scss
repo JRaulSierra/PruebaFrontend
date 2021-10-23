@@ -1,0 +1,18 @@
+@import "./Variables/Variables.scss";
+
+.body {
+  width: 100vw;
+  @include displayStyle(center, column);
+  h1 {
+    @include h1Style(50%, 5%, 4em);
+  }
+  button {
+    @include buttonStyle();
+  }
+  a {
+    text-decoration: none;
+    margin: 3%;
+    color: $ColorBlanco;
+    font-family: $font;
+  }
+}
