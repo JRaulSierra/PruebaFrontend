@@ -7,6 +7,7 @@ function Navbar() {
             <a href="/">Home</a>
             <a href="/mundial">Nivel Mundial</a>
             <a href="/c-a">Centro America</a>
+            <a href="/formulario">Suscripción</a>
         </div>
     );
 }
