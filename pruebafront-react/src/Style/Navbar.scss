@@ -1,7 +1,7 @@
 @import "./Variables/Variables.scss";
 
 .navbar {
-  @include displayStyle(flex-end,none);
+  @include displayStyle(center,none);
   width: 100%;
   height: 65px;
   background-color: black;

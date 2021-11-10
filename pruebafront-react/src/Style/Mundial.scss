@@ -1,25 +1,34 @@
 @import "./Variables/Variables.scss";
 
-.bodyMundial{
-    h1{
-        @include h1Style(100wh,3%,2em);
-    };
-    p{
-        @include h1Style(100wh,3%,1em);
-    }
-    
+.bodyMundial {
+  h1 {
+    @include h1Style(100wh, 3%, 2em);
+  }
+  p {
+    @include h1Style(100wh, 3%, 1em);
+  }
 }
 
-.cards{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
 }
 
-.card{
-    @include displayStyle(space-between,row);
+.card {
+  @include displayStyle(space-between, row);
+  margin-top: 150px;
+  width: 300px;
+  padding: 20px;
+  background-color: $blueColor;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    @include displayStyle(space-between, row);
     margin-top: 150px;
     width: 300px;
     padding: 20px;
-    background-color: $blueColor;
+    background-color: red;
+  }
 }

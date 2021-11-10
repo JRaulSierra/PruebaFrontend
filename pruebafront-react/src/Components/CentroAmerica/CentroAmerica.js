@@ -5,6 +5,7 @@ import recover from "../../img/recovered.png";
 import "../../Style/CA.scss";
 
 function CentroAmerica() {
+
   const [datos, setDatos] = useState();
   const [data, setData] = useState();
   const [confirmados, setConfirmados] = useState("");
